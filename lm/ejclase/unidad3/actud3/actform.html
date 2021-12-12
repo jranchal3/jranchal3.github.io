@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades Formularios</title>
+</head>
+<body>
+    <h1>Actividad 1</h1>
+        <form>
+            <input type="text" name="Nombre" placeholder="Nombre">
+            <input type="submit" value="Enviar">
+        </form>
+    <h1>Actividad 2</h1>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" value="Jose" maxlength="40">
+            <input type="submit" value="Enviar">
+        </form>
+    <h1>Actividad 3</h1>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" value="Jose" maxlength="40" disabled>
+            <input type="submit" value="Enviar">
+        </form>
+    <h1>Actividad 4</h1>
+        <form>
+            <p>Color favorito:</p>
+            <p><input type="radio" name="color" value="Rojo">Rojo</p>
+            <p><input type="radio" name="color" value="Azul" checked>Azul</p>
+            <input type="submit" value="Enviar">
+        </form>
+    <h1>Actividad 5</h1>
+        <form>
+            <select name="Marca">
+                <option>Volvo</option>
+                <option>Ford</option>
+                <option>Fiat</option>
+                <option>Audi</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    <h1>Actividad 6</h1>
+        <form>
+            <textarea name="textarea"></textarea><br>
+            <input type="submit" value="send">
+        </form>
+    <h1>Actividad 7</h1>
+        <fieldset>
+        <legend><h2>Currículum Vitae</h2></legend>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" placeholder="Guillermo" maxlength="50" required>
+                <br>
+            <label>Apellidos:</label>
+            <input type="text" name="Apellidos" placeholder="Ochoa Fernández" maxlength="70" required>
+                <br>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" required> 
+                <br>
+            <label>Lugar de nacimiento:</label>
+            <input type="text" maxlength="500">
+                <br>
+            <label>¿Consume alcohol?:</label>
+            <input type="radio" required name="alcohol" value="si"><label>Sí</label>
+            <input type="radio" required name="alcohol" value="no"><label>No</label>
+                <br>
+            <label>Correo electr&oacute;nico:</label>
+            <input type="text" maxlength="255">
+                <br>
+            <label>Datos de interés:</label>
+            <textarea name="datosdeinteres"></textarea>
+                <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+</body>
+</html>
