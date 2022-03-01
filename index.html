@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Juan Ranchal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #menu {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }      
+        #menu ul, li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu ul {
+            position: relative;
+            z-index: 597;
+            float: left;
+        }
+        #menu ul li {
+            float: left;
+            min-height: 1px;
+            line-height: 1em;
+            vertical-align: middle; 
+            border: 1px solid black;
+        }
+        #menu ul li.hover, #menu ul li:hover {
+            position: relative;
+            z-index: 599;
+            cursor: default; 
+        }
+        #menu ul ul {
+            visibility: hidden;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 598;
+            width: 100%; 
+        }
+        #menu ul ul li {
+            float: none; 
+        }
+        #menu ul li:hover > ul {
+            visibility: visible; 
+        }
+        #menu ul ul {
+            top: 0;
+            left: 100%; 
+        }
+        #menu ul li {
+            float: none; 
+        }
+        #menu {
+            width: 300px; 
+        }
+        #menu span, #menu a {
+            display: inline-block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        #menu:after, #menu ul:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #menu ul, #menu li {
+            width: 100%;
+        }
+        #menu li {
+            background: #f1f1f1;
+        }
+        #menu li:hover {
+            background: #f6f6f6;
+        }
+        #menu a {
+            color: black;
+            line-height: 160%;
+            padding: 10px 20px 10px 20px;
+            width: 250px;
+            text-align: center;
+        }
+        #menu ul ul li {
+            background: #f6f6f6; 
+        }
+        #menu ul ul li:hover {
+            background: #dddddd; 
+        }
+        #menu ul ul li:hover a {
+            color: black; 
+        }
+        #menu ul ul li ul li {
+            background: #dddddd; 
+        }
+        #menu ul ul li ul li:hover {
+            background: #b7b7b7; 
+        }
+        #menu .has-sub {
+            position: relative; 
+        }
+        #menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 9px;
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            margin-top: -5px;
+        }
+        #menu .fa-angle-right {
+            float: right;
+        }
+        footer > ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+            border: 1px solid #555;
+        }
+        footer > ul > li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        footer > ul > li {
+            text-align: center;
+            border-bottom: 1px solid #555;
+        }
+        footer > ul > li:last-child {
+            border-bottom: none;
+        }
+        footer > ul > li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juan Ranchal Parrado</h1>
+    <img src="yo.jpg" alt="Soy yo" width="300" height="400" id>
+    <h2>Enlaces</h2>
+        <nav id="menu">
+        <ul type="b">
+                <li><a href="lm/cp/index.html" target="_blank">Córdoba Ciudad Patrimonio</a></li>
+                <li><a href="lm/lrda/index.html" target="_blank">Las recetas de la abuela</a></li>
+                <li><a href="lm/ej/index.html">Ejercicios</a>
+                    <ul type="b">
+                        <li><a href="lm/ej/unidad3/index.html" target="_blank">Unidad 3</a>
+                            <ul type="b">
+                                <li><a href="lm/ej/unidad3/ejerciciocoche.html" target="_blank">Ejercicio coches</a></li>
+                                <li><a href="lm/ej/unidad3/ejerciciolista.html" target="_blank">Ejercicio lista</a></li>
+                                <li><a href="lm/ej/unidad3/ejerciciohorario.html" target="_blank">Ejercicio horario</a></li>
+                                <li><a href="lm/ej/unidad3/ejerciciocombinar.html" target="_blank">Ejercicio combinar celdas</a></li>
+                                <li><a href="lm/ej/unidad3/ejercicioformulario.html" target="_blank">Ejercicio formulario</a></li>
+                                <li><a href="lm/ej/unidad3/ejerciciovideo.html" target="_blank">Ejercicio vídeo</a></li>
+                                <li><a href="lm/ej/unidad3/examen3/index.html" target="_blank">Examen Unidad 3</a></li>
+                                <li><a href="lm/ej/unidad3/actud3/index.html" target="_blank">Actividades propuestas Moodle Unidad 3</a>
+                                    <ul type="b">
+                                        <li><a href="lm/ej/unidad3/actud3/actestruct.html" target="_blank">ud3.A1 Estructura y contenido</a></li>
+                                        <li><a href="lm/ej/unidad3/actud3/actenlaces.html" target="_blank">ud3.A2 Enlaces</a></li>
+                                        <li><a href="lm/ej/unidad3/actud3/actimagenes.html" target="_blank">ud3.A3 Imágenes</a></li>
+                                        <li><a href="lm/ej/unidad3/actud3/actlistas.html" target="_blank">ud3.A4 Listas</a></li>
+                                        <li><a href="lm/ej/unidad3/actud3/acttablas/acttabl.html" target="_blank">ud3.A5 Tablas</a></li>
+                                        <li><a href="lm/ej/unidad3/actud3/actaudiovid.html" target="_blank">ud3.A6 Audio y vídeo</a></li>
+                                        <li><a href="lm/ej/unidad3/actud3/actform.html" target="_blank">ud3.A7 Formularios</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="lm/ej/unidad4/index.html" target="_blank">Unidad 4</a>
+                            <ul type="b">
+                                <li><a href="lm/ej/unidad4/ejercicioprobandoestilos.html" target="_blank">Ejercicio probando estilos</a></li>
+                                <li><a href="lm/ej/unidad4/ejerciciopoemajorgedrexler.html" target="_blank">Ejercicio Jorge Drexler</a></li>
+                                <li><a href="lm/ej/unidad4/css/index.html" target="_blank">Ejercicios clase CSS</a>
+                                    <ul type="b">
+                                        <li><a href="lm/ej/unidad4/css/ejercicio1/index.html" target="_blank">Ejercicio 1</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio2/index.html" target="_blank">Ejercicio 2</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio3/index.html" target="_blank">Ejercicio 3</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio4/index.html" target="_blank">Ejercicio 4</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio5/index.html" target="_blank">Ejercicio 5</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio6/index.html" target="_blank">Ejercicio 6</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio7/index.html" target="_blank">Ejercicio 7</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio8/index.html" target="_blank">Ejercicio 8</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio9/index.html" target="_blank">Ejercicio 9</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio10/index.html" target="_blank">Ejercicio 10</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio11/index.html" target="_blank">Ejercicio 11</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio12/index.html" target="_blank">Ejercicio 12</a></li>
+                                        <li><a href="lm/ej/unidad4/css/ejercicio13/index.html" target="_blank">Ejercicio 13</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="lm/ej/unidad4/ejmoodleud4/index.html" target="_blank">Actividades propuestas Moodle Unidad 4</a>
+                                    <ul type="b">
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque1.html" target="_blank">Bloque 1</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque2.html" target="_blank">Bloque 2</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/bloque3/ud4bloque3.html" target="_blank">Bloque 3</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/bloque4/ud4bloque4.html" target="_blank">Bloque 4</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque5.html" target="_blank">Bloque 5</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque6ej1.html" target="_blank">Bloque 6 Ejercicio 1</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque6ej2.html" target="_blank">Bloque 6 Ejercicio 2</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque7.html" target="_blank">Bloque 7</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque8.html" target="_blank">Bloque 8</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque9.html" target="_blank">Bloque 9</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque10.html" target="_blank">Bloque 10</a></li>
+                                        <li><a href="lm/ej/unidad4/ejmoodleud4/ud4bloque11.html" target="_blank">Bloque 11</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="lm/ej/unidad5/index.html" target="_blank">Unidad 5</a>
+                            <ul type="b">
+                                <li><a href="lm/ej/unidad5/css/index.html" target="_blank">Ejercicios clase CSS</a>
+                                <ul type="b">
+                                    <li><a href="lm/ej/unidad5/css/ejercicio1/index.html" target="_blank">Ejercicio 1</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio2/index.html" target="_blank">Ejercicio 2</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio3/index.html" target="_blank">Ejercicio 3</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio4/index.html" target="_blank">Ejercicio 4</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio5/index.html" target="_blank">Ejercicio 5</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio6/index.html" target="_blank">Ejercicio 6</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio7/index.html" target="_blank">Ejercicio 7</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio8/index.html" target="_blank">Ejercicio 8</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio9/index.html" target="_blank">Ejercicio 9</a></li>
+                                    <li><a href="lm/ej/unidad5/css/ejercicio10/index.html" target="_blank">Ejercicio 10</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="lm/ej/unidad7/index.html" target="_blank">Unidad 7</a>
+                            <ul type="b">
+                                <li><a href="lm/ej/unidad7/xml/index.html" target="_blank">Ejercicios clase XML</a>
+                                <ul type="b">
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio1/documento1.xml" target="_blank">Ejercicio 1</a></li>
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio2/documento2.xml" target="_blank">Ejercicio 2</a></li>
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio3/documento3.xml" target="_blank">Ejercicio 3</a></li>
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio4/documento4.xml" target="_blank">Ejercicio 4</a></li>
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio4/errores4.xml" target="_blank">Ejercicio 4 errores</a></li>
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio5/documento5.xml" target="_blank">Ejercicio 5</a></li>
+                                    <li><a href="lm/ej/unidad7/xml/ejercicio6/documento6.xml" target="_blank">Ejercicio 6</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+        </ul>
+        </nav>
+    <footer>
+        <h2>Contacto del Instituto</h2>
+            <ul type="b">
+                <li><a title="IES Gran Capitán" href="https://www.iesgrancapitan.org" target="_blank"><img src="iesgc.jpg" width="100" height="100" alt="IES Gran Capitán"></a></li>
+                <li><a href="mailto:14700079.edu@juntadeandalucia.es">Enviar correo a IES Gran Capitán</a></li>
+                <li><a href="tel:+34957379710">Teléfono de IES Gran Capitán</a></li>
+            </ul>
+    <br>
+        &copy;Todos los derechos...
+        <address>a21rapaju@iesgrancapitan.org</address>
+    </footer>
+</body>
+</html>
