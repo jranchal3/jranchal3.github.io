@@ -19,5 +19,10 @@
             <link>https://jranchal3.github.io/lm/ej/unidad3/ejerciciohorario.html</link>
             <description>Tabla con el horario de 1º ASIR</description>
         </item>
+        <item>
+            <title>Ejercicio formulario HTML</title>
+            <link>https://jranchal3.github.io/lm/ej/unidad3/ejercicioformulario.html</link>
+            <description>Formulario para rellenar</description>
+        </item>
     </channel>
 </rss>
