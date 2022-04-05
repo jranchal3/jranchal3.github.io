@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Ejercicios HTML</title>
+        <link>https://jranchal3.github.io</link>
+        <description>Ejercicios HTML de Juan Ranchal</description>
+        <item>
+            <title>Ejercicio coche</title>
+            <link>https://jranchal3.github.io/lm/ej/unidad3/ejerciciocoche.html</link>
+            <description>Muestra una tabla con distintos coches</description>
+        </item>
+        <item>
+            <title>Ejercicio lista</title>
+            <link>https://jranchal3.github.io/lm/ej/unidad3/ejerciciolista.html</link>
+            <description>Una lista simple de FP de Informática</description>
+        </item>
+        <item>
+            <title>Ejercicio horario</title>
+            <link>https://jranchal3.github.io/lm/ej/unidad3/ejerciciohorario.html</link>
+            <description>Tabla con el horario de 1º ASIR</description>
+        </item>
+        <item>
+            <title>Ejercicio formulario</title>
+            <link>https://jranchal3.github.io/lm/ej/unidad3/ejercicioformulario.html</link>
+            <description>Tabla con un formulario</description>
+        </item>
+    </channel>
+</rss>
