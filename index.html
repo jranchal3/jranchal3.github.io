@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" href="ejercicioshtml.xml" type="application/rss+xml" title="Juan Ranchal LM - Ejercicios HTML">
+    <link rel="alternate" href="ejerciciosxml.xml" type="application/atom+xml" title="Juan Ranchal LM - Ejercicios XML">
+    <title>Página de Juan Ranchal</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: palegoldenrod;
+            display: grid;
+            grid-template-areas: 
+            'header';
+        }
+        header {
+            grid-area: header;
+            text-align: center;
+            margin: 50px;
+        }
+        #boton {
+            background-color: black;
+            border: 2px solid grey;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        #boton:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Juan Ranchal Parrado</h1>
+            <nav>
+                <a href="lm/index.html" id="boton">Lenguaje de Marcas</a>
+            </nav>
+    </header>
+</body>
+</html>
